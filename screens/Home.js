@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
         color: "white"
     },
     routeText: {
-        fontSize: 35,
+        fontSize: 25,
         fontWeight: "bold",
         color: "black",
         marginTop: 75,
