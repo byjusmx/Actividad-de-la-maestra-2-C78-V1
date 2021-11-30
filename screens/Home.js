@@ -36,9 +36,9 @@ export default class HomeScreen extends Component {
                         <Image source={require("../assets/iss_icon.png")} style={styles.iconImage}></Image>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
-                        this.props.navigation.navigate("Meteoritos")
+                        this.props.navigation.navigate("Meteors")
                     }>
-                        <Text style={styles.routeText}>Meteors</Text>
+                        <Text style={styles.routeText}>Meteoritos</Text>
                         <Text style={styles.knowMore}>{"Para saber más --->"}</Text>
                         <Text style={styles.bgDigit}>2</Text>
                         <Image source={require("../assets/meteor_icon.png")} style={styles.iconImage}></Image>
